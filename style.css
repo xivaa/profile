@@ -1,0 +1,83 @@
+h1, h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #CC9544;
+  font-weight: 100;
+}
+
+body {
+  background-color: #E0DDAA;
+}
+
+img {
+  border-radius: 50%;
+}
+
+p {
+  font-family: quicksand;
+  font-weight: 75;
+  color: #CC5556;
+}
+
+button {
+  background-color: #1C0A00;
+  color: beige;
+}
+
+a {
+  color: beige;
+  background-color: #1C0A00;
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CC9544;
+  text-decoration: none;
+}
+
+div {
+  margin-inline: 320px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-inline: 80px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #EEEDDE;
+  box-shadow: 10px 10px 12px brown;
+}
+
+#job_title{
+  text-decoration: dotted;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
